@@ -21,7 +21,7 @@ public class Main {
         if (weatherTemperature < 5) {
             System.out.println("На улице " + weatherTemperature + " градусов, нужно надеть шапку");
         } else {
-            System.out.println("На улице " + weatherTemperature + " градусов,можно идти без шапки");
+            System.out.println("На улице " + weatherTemperature + " градусов, можно идти без шапки");
         }
 
 
@@ -93,9 +93,9 @@ public class Main {
         //Task 7
         System.out.println("Task 7");
 
-        int one;
-        int two;
-        int three;
+        int one = 1;
+        int two = 2;
+        int three = 3;
 
         if (one > two && one > three) {
             System.out.println(one);
